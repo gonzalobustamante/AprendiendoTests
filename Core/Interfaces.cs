@@ -21,7 +21,7 @@ namespace Core
 
     public interface IAuthenticationService
     {
-        bool Authenticate(string username, string password);
+        bool Authenticate(string username, string password);//esta hecho
         void Register(string username, string password);
         void AssignRoleToUser(string username, string roleName);
     }
