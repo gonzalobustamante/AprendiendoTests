@@ -28,7 +28,7 @@ namespace Core
             {
                 user.Roles.Add(role);
             }
-        }
+        }       
     }
 
     public class RoleRepository : IRoleRepository
