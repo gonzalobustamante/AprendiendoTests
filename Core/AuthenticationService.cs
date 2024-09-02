@@ -20,6 +20,7 @@ namespace Core
         public bool Authenticate(string username, string password)
         {
             var user = _userRepository.GetUserByUsername(username);
+            
             return user != null && user.Password == password;
         }
 
